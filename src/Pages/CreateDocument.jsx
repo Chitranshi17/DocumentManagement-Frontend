@@ -27,7 +27,7 @@ const CreateDocument = () => {
     if (title && description && photo) {
       // console.log(formData);
       dispatch(getCreateDocument(formData));
-      // navigate("/document/allDocument");
+      navigate("/document/allDocument");
     } else {
       console.log("fill all details");
     }
